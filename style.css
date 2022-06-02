@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.form input{
+  width: 3rem;
+  padding: .3rem;
+  outline: none;
+}
+.form input:nth-child(7) {
+  width: 5rem;
+}
+.form input:last-child {
+  width: 100%;
+}
+.form {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background: linear-gradient(135deg, rgb(214, 214, 214), rgb(167, 167, 167));
+  gap: 1rem;
+  font-weight: bold;
+}
+.resposta {
+  padding: 0.5rem;
+  background: linear-gradient(135deg, rgb(214, 214, 214), rgb(167, 167, 167));
+  font-weight: bold;
+  font-size: 1.1rem;
+  max-width: max-content;
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(183, 0, 255);
+}
